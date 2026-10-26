@@ -6,16 +6,16 @@ chatbot that forgets everything and a chatbot that remembers the conversation.
 No LangChain, no vector database, no frameworks. Just plain Python, a few API
 calls, a Python list, and Streamlit.
 
----
+
 
 ## 🚀 Live Demo
 
 **Try the deployed chatbot:**  
 [Open Chatbot With Memory](https://beginner-app-memory-chatbot-ybqyobwz7rs2npvgjlb9fh.streamlit.app/)
 
-> Replace `https://beginner-app-memory-chatbot-ybqyobwz7rs2npvgjlb9fh.streamlit.app/` with your actual Streamlit app link.
 
----
+
+
 
 ## 1. Project objective
 
