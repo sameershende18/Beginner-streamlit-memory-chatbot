@@ -1,14 +1,15 @@
 import os
+import streamlit as st
 from dotenv import load_dotenv
 
 load_dotenv()
 
 LLM_PROVIDER = os.getenv("LLM_PROVIDER","gemini")
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY") 
 OPENAI_MODEL = os.getenv("OPENAI_MODEL","gpt-4o-mini")
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or st.secrets.get("GEMINI_API_KEY")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL","gemini-3.5-flash-lite")
 
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL","http://localhost:11434")
